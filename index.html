@@ -28,17 +28,35 @@
     }
 
     h1 {
-      font-family: 'Cinzel', serif;
-      font-size: 30px;
-      color: #fff;
-      margin: 0;
-      letter-spacing: 1px;
-    }
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
+}
 
-    p {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #fbe9e7;
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fbe9e7;
+}
+
+/* Gambar bumi */
+.earth {
+  width: 120px;
+  margin-bottom: 15px;
+  animation: rotate 20s linear infinite;
+}
+
+/* Animasi muter */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
     }
   </style>
 </head>
